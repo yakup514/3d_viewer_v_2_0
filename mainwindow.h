@@ -21,9 +21,13 @@ public:
 private:
     Ui::MainWindow *ui;
     SettingsWidget* sw_ = nullptr;
+    void SaveJPEG();
+    void SaveBMP();
 
 public slots:
     void LoadButtonClicked();
     void SlotSettngsBtnClicked();
+    void SlotRecordButtonClicked();
+    void SlotTransformButtonClicked();
 };
 #endif // MAINWINDOW_H

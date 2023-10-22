@@ -23,8 +23,8 @@ void Viewer::paintGL() {
   } else {
     projection_matrix_.frustum(-1.0f, 1.0f, -1.0f, 1.0f, 1.0f, 6.0f);
   }
-  projection_matrix_.translate(0.0, 0.0, -2.05);
-  projection_matrix_.rotate(30, 0, 1, 0);
+     projection_matrix_.translate(0.0, 0.0, -2.05);
+//  projection_matrix_.rotate(30, 0, 1, 0);
   glLineWidth((GLfloat)line_width_);
   if (line_type_ == 1) {
     glEnable(GL_LINE_STIPPLE);

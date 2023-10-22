@@ -24,7 +24,7 @@ set(PROJECT_SOURCES
         controller/mwcontroller.h controller/mwcontroller.cc
         view/shaders.qrc
         view/settings_widget.cc view/settings_widget.h view/settings_widget.ui
-        controller/command.h controller/command.cc
+        controller/command.h controller/command.cc controller/afine_stategy.cc controller/afine_strategy.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

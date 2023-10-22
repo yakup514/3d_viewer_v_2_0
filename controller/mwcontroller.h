@@ -3,16 +3,13 @@
 #include "../model/model.h"
 namespace s21 {
 
-
-class MWController
-{
-public:
-    MWController();
-    Model* model_;
-    GLfloat* GetVertexes();
-    GLuint GetVertexCount();
-    std::vector<std::vector<GLuint>> GetFasets();
-
+class MWController {
+ public:
+  MWController();
+  Model* model_;
+  GLfloat* GetVertexes();
+  GLuint GetVertexCount();
+  std::vector<std::vector<GLuint>> GetFasets();
 };
-}
-#endif // MWCONTROLLER_H
+}  // namespace s21
+#endif  // MWCONTROLLER_H
